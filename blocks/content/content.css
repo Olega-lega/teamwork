@@ -5,7 +5,12 @@
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  margin-top: 85px;
-  margin-bottom: 85px;
+  margin: 85px 0;
   row-gap: 138px;
+}
+
+@media screen and (max-width: 984px) {
+  .content {
+    row-gap: 128px;
+  }
 }

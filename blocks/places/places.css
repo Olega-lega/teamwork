@@ -5,3 +5,9 @@
   grid-template-rows:  repeat(3, minmax(400px, 535px));
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 984px) {
+  .places {
+    grid-template-rows: repeat(3, minmax(220px, 355px));
+  }
+}
