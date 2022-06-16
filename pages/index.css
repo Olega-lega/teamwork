@@ -21,5 +21,15 @@
 @import url(../blocks/caption/caption.css);
 
 @import url(../blocks/places/places.css);
+@import url(../blocks/places/__image/places__image.css);
+@import url(../blocks/places/__item/places__item.css);
+@import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__text/places__text.css);
 
 @import url(../blocks/feedback/feedback.css);
+@import url(../blocks/feedback/__people/feedback__people.css);
+@import url(../blocks/feedback/__title/feedback__title.css);
+@import url(../blocks/feedback/__lists/feedback__lists.css);
+@import url(../blocks/feedback/__list/feedback__list.css);
+@import url(../blocks/feedback/__list-title/feedback__list-title.css);
+@import url(../blocks/feedback/__list-text/feedback__list-text.css);

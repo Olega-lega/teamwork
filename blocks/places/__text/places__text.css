@@ -1,0 +1,11 @@
+.places__text {
+  font-size: 13px;
+  line-height: 19px;
+  margin: 0 0 24px 0;
+  max-width: 360px;
+  font-family: 'Rubik', Arial, sans-serif;
+}
+
+.places__text:last-child {
+  margin-bottom: 0;
+}

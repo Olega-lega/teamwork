@@ -1,0 +1,7 @@
+.feedback__lists {
+  display: grid;
+  padding: 0;
+  margin: 0;
+  grid-template-columns: minmax(160px, 235px)  minmax(160px, 235px) minmax(160px, 200px) minmax(160px, 235px);
+  column-gap: 66px;
+}

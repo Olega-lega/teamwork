@@ -1,0 +1,7 @@
+.feedback__list {
+  list-style-type: none;
+}
+
+.feedback__list:last-of-type {
+  margin-left: 27px;
+}
