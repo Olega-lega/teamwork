@@ -1,0 +1,10 @@
+.content {
+  max-width: 1280px;
+  min-width: 320px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}

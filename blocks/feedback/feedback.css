@@ -1,0 +1,34 @@
+.feedback {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__content {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback__title {
+  max-width: 500px;
+  font-weight: 700;
+  font-size: 36px;
+  margin: 10px 0 140px;
+}
+
+.feedback__lists {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  justify-content: space-between;
+  width: 100%;
+}
+.feedback__list {
+  list-style-type: none;
+  max-width: 280px;
+}
+.feedback__list-title {
+  margin: 0 0 25px;
+}
+.feedback__list-text {
+  margin: 0;
+}
