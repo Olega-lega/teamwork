@@ -10,25 +10,42 @@
 
 .feedback__title {
   max-width: 500px;
+  font-family: 'Rubik', Arial, sans-serif;
   font-weight: 700;
-  font-size: 36px;
-  margin: 10px 0 140px;
+  font-size: 38px;
+  line-height: 48px;
+  margin: 10px 0 131px;
 }
 
 .feedback__lists {
   display: flex;
   padding: 0;
   margin: 0;
-  justify-content: space-between;
   width: 100%;
+  justify-content: space-between;
 }
 .feedback__list {
   list-style-type: none;
-  max-width: 280px;
+  max-width: 260px;
 }
+
+.feedback__list:last-of-type {
+  margin-right: 0;
+  margin-left: 50px;
+}
+
 .feedback__list-title {
-  margin: 0 0 25px;
+  font-family: 'Rubik', Arial, sans-serif;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 13px;
+  margin: 0 0 28px;
 }
 .feedback__list-text {
+  font-family: 'Rubik', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 23px;
+  letter-spacing: 1px;
   margin: 0;
 }
