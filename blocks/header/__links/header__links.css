@@ -2,7 +2,14 @@
   display: flex;
   justify-content: space-between;
   list-style-type: none;
+  align-items: center;
   column-gap: 40px;
   margin: 0;
   padding: 0;
+}
+
+@media screen and (max-width: 568px) {
+  .header__links {
+    column-gap: 14px;
+  }
 }

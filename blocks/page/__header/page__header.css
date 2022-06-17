@@ -3,3 +3,21 @@
   width: 100%;
   padding: 0 70px;
 }
+
+@media screen and (max-width: 1140px) {
+  .page__header {
+    padding: 0 40px;
+  }
+}
+
+@media screen and (max-width: 984px) {
+  .page__header {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .page__header {
+    padding: 0 16px;
+  }
+}

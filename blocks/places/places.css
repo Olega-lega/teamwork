@@ -11,3 +11,10 @@
     grid-template-rows: repeat(3, minmax(220px, 355px));
   }
 }
+
+@media screen and (max-width: 568px) {
+  .places {
+    grid-template-rows: min-content;
+    grid-template-columns: none;
+  }
+}
