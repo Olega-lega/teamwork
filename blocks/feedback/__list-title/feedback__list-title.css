@@ -5,3 +5,10 @@
   font-size: 11px;
   margin: 0 0 22px;
 }
+
+@media screen and (max-width: 568px) {
+  .feedback__list-title {
+    font-size: 10px;
+    margin: 0 0 16px;
+  }
+}

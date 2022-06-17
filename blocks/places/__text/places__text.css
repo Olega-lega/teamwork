@@ -9,3 +9,10 @@
 .places__text:last-child {
   margin-bottom: 0;
 }
+
+@media screen and (max-width: 568px) {
+  .places__text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+}
