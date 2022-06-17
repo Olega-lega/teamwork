@@ -15,6 +15,10 @@
 @media screen and (max-width: 568px) {
   .places {
     grid-template-rows: min-content;
+    grid-template-areas:
+    "title"
+    "image"
+    "text";
     grid-template-columns: none;
   }
 }
