@@ -1,24 +1,14 @@
 .places {
   display: grid;
   background-color: #f1f1f1;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows:  repeat(3, minmax(400px, 535px));
+  grid-template-columns: 1fr;
+  grid-auto-rows: 1fr;
   box-sizing: border-box;
-}
-
-@media screen and (max-width: 984px) {
-  .places {
-    grid-template-rows: repeat(3, minmax(220px, 355px));
-  }
 }
 
 @media screen and (max-width: 568px) {
   .places {
-    grid-template-rows: min-content;
-    grid-template-areas:
-    "title"
-    "image"
-    "text";
-    grid-template-columns: none;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr;
   }
 }

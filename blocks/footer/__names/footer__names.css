@@ -1,0 +1,7 @@
+.footer__names {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  margin-left: 8px;
+  row-gap: 10px;
+}

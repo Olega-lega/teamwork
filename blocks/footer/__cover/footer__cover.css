@@ -21,11 +21,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 2 linear;
+    transition: all 2s linear;
   }
 
   @media screen and (max-width: 568px) {
-    .footer__cover {
+    .footer__cover:hover::before {
       font-size: 25px;
     }
   }

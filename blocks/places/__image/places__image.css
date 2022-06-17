@@ -5,21 +5,8 @@
   object-position: center center;
 }
 
-@media screen and (max-width: 1140px) {
-  .places__image {
-    height: 90%;
-  }
-}
-
-@media screen and (max-width: 984px) {
-  .places__image {
-    height: 95%;
-  }
-}
-
 @media screen and (max-width: 568px) {
   .places__image {
-    height: 80%;
-    grid-area: 'image';
+    grid-area: image;
   }
 }

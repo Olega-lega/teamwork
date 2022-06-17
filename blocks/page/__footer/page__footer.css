@@ -3,3 +3,9 @@
   width: 100%;
   height: 60vh;
 }
+
+@media screen and (max-width: 568px) {
+  .page__footer {
+    height: 40vh;
+  }
+}

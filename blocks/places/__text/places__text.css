@@ -4,7 +4,6 @@
   margin: 0 0 24px 0;
   max-width: 360px;
   font-family: 'Rubik', Arial, sans-serif;
-  grid-area: 'text';
 }
 
 .places__text:last-child {
