@@ -7,20 +7,25 @@
   position: relative;
 }
 
-.footer__cover:hover {
-    content: '';
-    opacity: 0;
+.footer__cover:hover::before {
+    content: "за 500 руб победим?=)";
+    font-size: 50px;
+    color: #fff;
+    background-color: #fdcda7;
     position: absolute;
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
-    transition: .8s;
     z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 2 linear;
   }
-  
-  .footer__cover:hover: {
-    opacity: 1;
-    content: 'Привет';
-    color: aliceblue;
+
+  @media screen and (max-width: 568px) {
+    .footer__cover {
+      font-size: 25px;
+    }
   }
